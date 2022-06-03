@@ -1,0 +1,184 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-image: url('https://ak.picdn.net/shutterstock/videos/1022071204/thumb/1.jpg');
+}
+.tt{
+  font-size: 50px; text-align: center; color:#ffcc00;
+  
+}
+.heart{
+  font-size: 35px;
+}
+.video{
+  width:650px; 
+  padding-left: 212px;
+  padding-top: 25px;
+}
+.videopara{
+  font-size: 25px ;
+  text-align: center;
+  color:#e60073;
+}
+.container {
+  width: 100%;
+  height: 100%;
+}
+th,td{
+  border:2px solid #ffad33;
+  width:750px;
+  height: 520px;
+  color: white;
+
+}
+
+.leftpane {
+    width: 15%;
+    height: 100%;
+    float: left;
+ background-image: url('https://ak.picdn.net/shutterstock/videos/1022071204/thumb/1.jpg')
+    background-color:#cc0000;
+}
+
+.middlepane {
+    width: 70%;
+    height: 100%;
+    float: left;
+    background-color:#FF0000;
+    border-collapse: collapse;
+    background-image: url('https://www.welovesolo.com/wp-content/uploads/vector/08/Yellow-heart-background-vector.jpg');
+
+  }
+
+.rightpane {
+  width: 15%;
+  height: 100%;
+  position: relative;
+  float: right;
+  background-image: url('https://ak.picdn.net/shutterstock/videos/1022071204/thumb/1.jpg');
+  border-collapse: collapse;
+  background-color: #cc0000;
+}
+#space{
+  font-size: 23px;
+}
+.toppane {
+  width: 100%;
+  height: 80px;
+  padding-top: 30px;
+  border-collapse: collapse;
+  background-color:red;
+  background-image: url('https://ak.picdn.net/shutterstock/videos/1022071204/thumb/1.jpg');
+}
+#hh{
+  text-align: center;
+  
+}
+
+.button {
+  background-color:#ffcc00;
+  border:1px ;
+  border-radius: 5px;
+  color: black;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+ 
+}
+#para{
+  font-size: 22px;
+}
+img{
+  margin-top: 2px;
+  width: 500px;
+  height: 450px
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 991px) {
+
+  .imgone{
+    width: 100%;
+    align-self: center;
+    
+    }
+    th,td{
+  
+  border:2px solid #ffad33;
+  width:350px;
+  height: 520px;
+  color: white;
+
+}
+    #para{
+  font-size: 15px;
+}
+#space{
+  font-size: 25px;
+}
+.video{
+  width:480px; 
+  padding-left: 80px;
+  padding-top: 70px;
+}
+.videopara{
+  font-size: 40px ;
+  text-align: center;
+  color: #e60073;
+}
+
+    .tt{
+      font-size: 35px; text-align: center; color:#ffcc00;
+
+    }
+}
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 767px){
+  .imgone{
+    width: 100%;
+    align-self: center;
+    height:200px;
+    
+    }
+    .middlepane {
+  
+      position: relative;
+      margin: auto;
+    }
+    .tt{
+      font-size: 40px; text-align: center; color:#ffcc00;
+    }
+    .video{
+  width:222px; 
+  padding-left:35px;
+  padding-top: 80px;
+}
+.videopara{
+  font-size: 30px ;
+  text-align: center;
+  color: #e60073;
+}
+    .toppane{
+     
+        text-align: center;
+        height: 150px;
+        width: 100%;
+      }
+      #para{
+  font-size: 12px;
+}
+#space{
+  font-size: 20px;
+}
+      th,td{
+  border:2px solid #ffad33;
+  width:230px;
+  height: 430px;
+  color: white;
+}
+
+}
